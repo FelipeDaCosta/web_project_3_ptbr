@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./Inter\ Web/Inter-Black.woff2?v=3.19") format("woff2"),
+         url("./Inter\ Web/Inter-Black.woff?v=3.19") format("woff");
+}
+
+@font-face {
+font-family: 'Inter';
+font-style:  normal;
+font-weight: 400;
+font-display: swap;
+src: url("./Inter\ Web/Inter-Regular.woff2?v=3.19") format("woff2"),
+        url("./Inter\ Web/Inter-Regular.woff?v=3.19") format("woff");
+}
+
+@font-face {
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url("./Inter\ Web/Inter-SemiBold.woff2?v=3.19") format("woff2"),
+         url("./Inter\ Web/Inter-SemiBold.woff?v=3.19") format("woff");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Inter';
+    background-color: #2A2C2F;
+    color: white;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 3% 2%;
+    margin: auto;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 92px;
+}
+
+
+/* ########### Logo ########### */
+
+.blue-square {
+    background-color: #0278FE;
+    width: 32px;
+    height: 32px;
+    border-radius: 2px;
+    margin: auto;
+    position: relative;
+}
+
+.blue-square__horizontal-line {
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.blue-square__vertical-line {
+    position: absolute;
+    top: 6px;
+    left: 11px;
+}
+
+.logo__text {
+    font-weight: 900;
+}
+
+/* ########### Lead ########### */
+
+.lead__title {
+    width: 62%;
+    margin: auto;
+    font-size: 96px;
+}
+
+.lead__subtitle {
+    width: 59%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* ########### Intro ########### */
+
+.intro {
+    width: 85%;
+    margin: auto;
+    text-align: start;
+}
+
+.intro__title {
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 1.05;
+}
+
+.intro__quote {
+    font-size: 24px;
+    line-height: 1.4;
+    position: relative;
+    max-width: 720px;
+}
+
+.intro__quote-text {
+    margin: 0;
+}
+
+.intro__author {
+    position: absolute;
+    right: 0;
+    top: 100px;
+}
+
+.intro__text {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+/* ########### Photo-Grid ########### */
+
+.photo-grid__photo {
+    max-width: 284px;
+}
+
+/* ########### Places ########### */
+
+.places {
+    width: 85%;
+    margin: auto;
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    text-align: start;
+}
+
+.place__element {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.place__element_position_header {
+    align-items: flex-end;
+}
+
+.place__title {
+    font-size: 72px;
+    font-weight: 900;
+    margin: 0;
+    max-width: 460px;
+}
+
+.place__artist {
+
+}
+
+.place__artist-tag {
+    margin: 0 0 8px 0;
+    color: #AAA;
+}
+
+.place__artist-name {
+    margin: 0;
+}
+
+.place__photo {
+
+}
+
+.place__paragraph {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.55;
+    width: 484px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 13px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #0278FE;
+    border-radius: 5px;
+}
+
+
+/* ########### Cover ########### */
+
+.cover {
+    width: 100%;
+    max-width: 1184px;
+    position: relative;
+}
+
+.cover__image {
+    width: 100%;
+}
+
+.cover__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.cover__title {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 76px;
+    margin: 32px;
+}
+
+.cover__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.2;
+    width: 280px;
+    margin: 32px auto;
+}
