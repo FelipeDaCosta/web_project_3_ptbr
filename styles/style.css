@@ -74,6 +74,7 @@ src: url("./Inter\ Web/Inter-Regular.woff2?v=3.19") format("woff2"),
 
 .logo__text {
     font-weight: 900;
+    font-size: 1.5rem;
 }
 
 /* ########### Lead ########### */
@@ -82,6 +83,7 @@ src: url("./Inter\ Web/Inter-Regular.woff2?v=3.19") format("woff2"),
     width: 62%;
     margin: auto;
     font-size: 96px;
+    margin-bottom: 32px;
 }
 
 .lead__subtitle {
@@ -89,6 +91,7 @@ src: url("./Inter\ Web/Inter-Regular.woff2?v=3.19") format("woff2"),
     margin: auto;
     font-size: 30px;
     font-weight: 400;
+    margin-bottom: 64px;
 }
 
 /* ########### Intro ########### */
@@ -160,11 +163,20 @@ src: url("./Inter\ Web/Inter-Regular.woff2?v=3.19") format("woff2"),
     align-items: flex-end;
 }
 
+.place__photo {
+    min-width: 320px;
+    max-width: 460px;
+}
+
+.place__title-container {
+    width: 460px;
+}
+
 .place__title {
     font-size: 72px;
     font-weight: 900;
     margin: 0;
-    max-width: 460px;
+    width: 460px;
 }
 
 .place__artist {
