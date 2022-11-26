@@ -142,45 +142,37 @@ src: url("./Inter\ Web/Inter-Regular.woff2?v=3.19") format("woff2"),
 .places {
     width: 85%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
 }
 
 .place {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 48px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
     text-align: start;
+    row-gap: 48px;
 }
 
-.place__element {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 40px;
-}
 
-.place__element_position_header {
-    align-items: flex-end;
-}
 
 .place__photo {
     min-width: 320px;
     max-width: 460px;
 }
 
-.place__title-container {
-    width: 460px;
-}
 
 .place__title {
     font-size: 72px;
     font-weight: 900;
     margin: 0;
-    width: 460px;
 }
 
 .place__artist {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 
 .place__artist-tag {
@@ -196,11 +188,16 @@ src: url("./Inter\ Web/Inter-Regular.woff2?v=3.19") format("woff2"),
 
 }
 
+.place__paragraphs {
+    grid-row: 2/4;
+}
+
 .place__paragraph {
     margin: 0;
     font-size: 18px;
     line-height: 1.55;
     width: 484px;
+    margin-bottom: 25px;
 }
 
 .button {
@@ -211,6 +208,13 @@ src: url("./Inter\ Web/Inter-Regular.woff2?v=3.19") format("woff2"),
     font-weight: 600;
     background-color: #0278FE;
     border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.place__link {
+    grid-column: 1;
+    grid-row: 3;
 }
 
 
