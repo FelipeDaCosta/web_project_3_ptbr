@@ -27,7 +27,6 @@ src: url("./Inter\ Web/Inter-Regular.woff2?v=3.19") format("woff2"),
 
 * {
     box-sizing: border-box;
-
 }
 
 .body {
@@ -54,7 +53,7 @@ src: url("./Inter\ Web/Inter-Regular.woff2?v=3.19") format("woff2"),
 
 /* ########### Logo ########### */
 
-.blue-square {
+.logo__square {
     background-color: #0278FE;
     width: 32px;
     height: 32px;
@@ -63,13 +62,13 @@ src: url("./Inter\ Web/Inter-Regular.woff2?v=3.19") format("woff2"),
     position: relative;
 }
 
-.blue-square__horizontal-line {
+.logo__horizontal-line {
     position: absolute;
     top: 6px;
     left: 0;
 }
 
-.blue-square__vertical-line {
+.logo__vertical-line {
     position: absolute;
     top: 6px;
     left: 11px;
