@@ -1,5 +1,5 @@
-
-
+@import url('./fonts.css');
+@import url('./normalize.css');
 @import url('./blocks/all.css');
 
 @import url('./blocks/body/body.css');
@@ -44,29 +44,3 @@
 @import url('./blocks/cover/__title/cover__title.css');
 @import url('./blocks/cover/__text/cover__text.css');
 
-@font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 900;
-    font-display: swap;
-    src: url("./Inter\ Web/Inter-Black.woff2?v=3.19") format("woff2"),
-         url("./Inter\ Web/Inter-Black.woff?v=3.19") format("woff");
-}
-
-@font-face {
-font-family: 'Inter';
-font-style:  normal;
-font-weight: 400;
-font-display: swap;
-src: url("./Inter\ Web/Inter-Regular.woff2?v=3.19") format("woff2"),
-        url("./Inter\ Web/Inter-Regular.woff?v=3.19") format("woff");
-}
-
-@font-face {
-    font-family: 'Inter';
-    font-style:  normal;
-    font-weight: 600;
-    font-display: swap;
-    src: url("./Inter\ Web/Inter-SemiBold.woff2?v=3.19") format("woff2"),
-         url("./Inter\ Web/Inter-SemiBold.woff?v=3.19") format("woff");
-}

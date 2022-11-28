@@ -1,13 +1,13 @@
 .intro__author {
-    position: absolute;
-    right: 0;
-    top: 100px;
+  position: absolute;
+  right: 0;
+  top: 100px;
 }
 
 @media screen and (max-width: 800px) {
-    .intro__author {
-        position: static;
-        display: block;
-        text-align: end;
-    }
+  .intro__author {
+    position: static;
+    display: block;
+    text-align: end;
+  }
 }
